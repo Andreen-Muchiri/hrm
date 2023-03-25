@@ -24,13 +24,28 @@
   }
   .client-dashboard-card{
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    /* border: thick solid rgb(209, 227, 236); */
+    border: thick solid rgb(209, 227, 236);
     border-radius: 10px;
    width: 25vh;
-   margin-top: 50px;
+   margin-top: 40px;
    margin-right: auto;
    margin-left: 100px;
    height: auto;
    padding: 30px 30px;
-   background-color: rgb(26, 31, 34);
+   /* background-color: rgb(20, 54, 75); */
+  }
+  button[type="submit"] {
+    background-color: rgb(139, 171, 190);
+    color: white;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 720px;
+    margin-right: 100px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: darkblue;
   }

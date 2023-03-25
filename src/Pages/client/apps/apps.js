@@ -22,7 +22,7 @@ export default function ClientApps(){
                        </Card.Title>
                        <Card.Body>
                         <Card.Text>
-                            HOME
+                        <button type="submit">Home</button>
                             </Card.Text>
                        </Card.Body>
                     </Card>
@@ -38,7 +38,7 @@ export default function ClientApps(){
                        </Card.Title>
                        <Card.Body>
                         <Card.Text>
-                            HOME
+                        <button type="submit">Profile</button>
                             </Card.Text>
                        </Card.Body>
                     </Card>
@@ -53,7 +53,7 @@ export default function ClientApps(){
                        </Card.Title>
                        <Card.Body>
                         <Card.Text>
-                            HOME
+                        <button type="submit">Finances</button>
                             </Card.Text>
                        </Card.Body>
                     </Card>
@@ -71,7 +71,7 @@ export default function ClientApps(){
                        </Card.Title>
                        <Card.Body>
                         <Card.Text>
-                            HOME
+                        <button type="submit">Employees</button>
                             </Card.Text>
                        </Card.Body>
                     </Card>
@@ -88,7 +88,7 @@ export default function ClientApps(){
                        </Card.Title>
                        <Card.Body>
                         <Card.Text>
-                            HOME
+                        <button type="submit">Add Employee</button>
                             </Card.Text>
                        </Card.Body>
                     </Card>
@@ -103,7 +103,7 @@ export default function ClientApps(){
                        </Card.Title>
                        <Card.Body>
                         <Card.Text>
-                            HOME
+                        <button type="submit">Home</button>
                             </Card.Text>
                        </Card.Body>
                     </Card>
