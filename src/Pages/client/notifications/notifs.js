@@ -1,5 +1,5 @@
 import ClientHeader from "../home/header";
-import ClientBar from "../navbar/navbar";
+import ClientBar from "../navbar/sidebar";
 import "./notifs.css";
 
 export default function Notifications() {

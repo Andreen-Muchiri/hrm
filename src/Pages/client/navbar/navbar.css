@@ -1,7 +1,9 @@
 #client-nav-bar {
-  width: 5%;
-  height: 100%;
-  background-color: var(--tertiary-color);
+  width: 10%;
+  height: 150%;
+  /* background-color: var(--tertiary-color); */
+  background-color: darkblue;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,11 +16,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  /* float: right; */
+  margin-top: 10px;
 }
 
 #client-bar-info {
   height: 40%;
+  margin-bottom: 280px;
+
 }
+#client-bar-info h3 {
+ font-size: 1.5rem;
+ font-weight: bold;
+
+}
+
 
 #client-bar-info > * {
   color: var(--primary-color);

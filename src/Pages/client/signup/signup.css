@@ -15,7 +15,42 @@
   align-items: center;
   justify-content: flex-start;
 }
-#client-signup > form,
+.client-signup-updates-card{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 20px 100px;
+  margin-left: -50px;
+}
+.client-signup-payment-card {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: -50px;
+  padding: 70px 40px;
+} 
+.client-signup-updates-card h3{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: darkblue;
+} 
+.client-signup-payment-card h3{
+ color: darkblue;
+ margin-top: -10px;
+}
+
+button[type="approve"] {
+  background-color: rgb(139, 171, 190);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="approve"]:hover {
+  background-color: darkblue;
+}
+/* #client-signup > form,
 #client-signup > div {
   width: 100%;
   border: thin solid black;
@@ -23,6 +58,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+} */
+
+#client-signup-card-container{
+  display: flex;
+  justify-content: space-between;
+ flex-direction: column;
 }
 
 /* .file-upload-input::file-selector-button {

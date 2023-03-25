@@ -1,6 +1,7 @@
-import ClientBar from "../navbar/navbar";
+import ClientBar from "../navbar/sidebar";
 import "./profile.css";
 import ClientHeader from "../home/header";
+import {Card, Col, Row, Table} from 'react-bootstrap';
 
 export default function ClientProfile() {
   return (
@@ -10,8 +11,12 @@ export default function ClientProfile() {
         <ClientHeader message="Update your organisations details." />
 
         <section id="client-profile-1">
+          <div id="client-profile-card-container">
+            <div class='row'>
+              <div class='col'>
+                <Card className="client-profile-general-details-card">
           <form>
-            <h3>Update general details</h3>
+            <h3 className="client-profile-general-details-title">Update general details</h3>
             <span>
               <input type="text" placeholder="Organisations name" />
               <input type="text" placeholder="Organisations number" />
@@ -48,9 +53,15 @@ export default function ClientProfile() {
             </span>
             <button type="submit">Update</button>
           </form>
-
+          </Card>
+          </div>
+          </div>
+          
+          <div class='row 2'>
+            <div class='col 2'>
+              <Card className="client-profile-financial-details-card">
           <form>
-            <h3>Financial details</h3>
+            <h3 className="client-profile-general-details-title">Financial details</h3>
             <span>
               <input type="text" placeholder="KRA pin" />
               <input type="text" placeholder="NSSF number" />
@@ -61,19 +72,30 @@ export default function ClientProfile() {
             </span>
             <button type="submit">Update details</button>
           </form>
+          </Card>
+          </div>
+          </div>
 
+     <div class='row 3'>
+      <div class='col 3'>
+        <Card className="client-profile-payment-details-card">
           <form>
-            <h3>Payment details</h3>
+            <h3 className="client-profile-payment-details-title">Payment details</h3>
             <span>
               <label>Set payment range for permanent employees.</label>
-              <select>
+              <select id="org-type">
                 <option value="one-week">One week</option>
                 <option value="two-week">Two weeks</option>
                 <option value="one-month">One month</option>
               </select>
             </span>
             <button type="submit">Update details</button>
-          </form>
+          </form> 
+          </Card>
+          </div>
+          </div>
+         
+          </div>
         </section>
       </section>
     </section>

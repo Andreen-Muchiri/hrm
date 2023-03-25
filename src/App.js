@@ -12,6 +12,7 @@ import ClientEmployee from "./Pages/client/employee/employee";
 import ClientProfile from "./Pages/client/profile/profile";
 import Messages from "./Pages/client/notifications/message";
 import Notifications from "./Pages/client/notifications/notifs";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

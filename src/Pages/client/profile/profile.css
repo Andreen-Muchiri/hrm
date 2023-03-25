@@ -6,3 +6,107 @@
 #client-profile-1{
   
 }
+.client-profile-general-details-card{
+  padding: 50px 10px;
+  height: 70vh;
+  width: 450px;
+  margin-left: 40px;
+  margin-top: 20px;
+  display: flex;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: thin solid;
+  border-radius: 10px;
+}
+#client-profile-card-container{
+  display: flex;
+  justify-content: space-between;
+}
+.client-profile-payment-details-card{
+  margin-right: 90px;
+  margin-left: -100px;
+  padding: 108px 10px;
+  height: 70vh;
+  width: 450px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: thin solid;
+    border-radius: 10px;
+}
+.client-profile-financial-details-card{
+  padding: 35px 10px;
+  height: 70vh;
+  width: 450px;
+  margin-left: -100px;
+  margin-top: 20px;
+  display: flex;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border: thin solid;
+  border-radius: 10px;
+}
+.client-profile-general-details-title{
+  /* text-align: center; */
+  color: darkblue;
+  margin-top: -20px;
+}
+.client-profile-payment-details-title{
+  color: darkblue;
+  margin-top: -90px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #3367d6;
+}
+#org-type{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  /* color: #fff; */
+
+  box-shadow: 0 0 5px rgba(250, 246, 246, 0.2);
+}
+button[type="submit"] {
+  background-color: rgb(139, 171, 190);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: darkblue;
+}
