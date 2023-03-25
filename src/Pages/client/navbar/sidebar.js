@@ -6,7 +6,7 @@ import { BsPeople } from "react-icons/bs";
 import { FaUserPlus } from "react-icons/fa";
 import { AiOutlineHome } from "react-icons/ai";
 import { FaUserCircle } from "react-icons/fa";
-
+import {TbLayoutDashboard} from 'react-icons/tb';
 
 export default function ClientBar() {
 
@@ -17,6 +17,11 @@ export default function ClientBar() {
         
       <span id="client-bar-info">
         <h3>HRTech Int.  </h3>
+
+        <Link to="/client/dashboard">
+          <TbLayoutDashboard />
+        
+        </Link>
         <Link to="/client/home">
           <AiOutlineHome />
         

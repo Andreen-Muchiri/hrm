@@ -6,6 +6,8 @@ import EmployeeHome from "./Pages/employee/home/home";
 import EmployeeMoney from "./Pages/employee/money/money";
 import Signup from "./Pages/general/auth/signup";
 import ClientSignup from "./Pages/client/signup/signup";
+import ClientApps from "./Pages/client/apps/apps";
+
 import ClientHome from "./Pages/client/home/home";
 import ClientMoney from "./Pages/client/money/money";
 import ClientEmployee from "./Pages/client/employee/employee";
@@ -27,6 +29,8 @@ function App() {
         </Route>
 
         <Route path="/client">
+        <Route path="dashboard" element={<ClientApps />} />
+
           <Route path="home" element={<ClientHome />} />
           <Route path="signup" element={<ClientSignup />} />
           <Route path="money" element={<ClientMoney />} />
